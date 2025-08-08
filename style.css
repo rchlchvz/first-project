@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+.box {
+    border: 2px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-horizontal {
+    height: 100px;
+}
+
+.box-small {
+    width: 30%;
+    height: 50px;
+}
+
+.box-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.box-wrapper2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-large {
+    width: 45%;
+    height: 200px;
+}
